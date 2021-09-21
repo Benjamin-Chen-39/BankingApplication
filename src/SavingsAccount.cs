@@ -9,6 +9,7 @@ namespace BankingApplication
         {
             this.Balance = initialBalance;
             this.interestRate = 0.012;
+            this.status = true;
         }
 
         public double CalculateInterest(double years)
